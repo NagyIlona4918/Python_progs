@@ -1,0 +1,7 @@
+number = input("Please, write a number! ")
+sum = 0
+
+for character in number:
+    sum += int(character) #az adott számmal növeli az összeget
+    
+print(f'{"Your number was:"} {number} {"\n The sum of the digits of your number is:"} {sum}')
