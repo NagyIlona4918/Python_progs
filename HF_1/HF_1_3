@@ -1,0 +1,3 @@
+text = input("Please, write a sentence! ")
+
+print(f'{"Your sentence was:"} {"\n Its reversed is:"} {' '.join(text.split()[::-1])}')
