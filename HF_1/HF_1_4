@@ -25,4 +25,4 @@ if len(modus) == len(uniques):
     print("There is no modus.") #nem értelmezhető
     
 else: 
-    print(f'{"The modus is(are) "} {', '.join(modus)} {", which(es) appear(s) "} {max} {"times."}')
+    print(f"The modus is(are) {', '.join(modus)}, which(es) appear(s) {max} times.")
