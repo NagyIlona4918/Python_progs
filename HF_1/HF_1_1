@@ -6,4 +6,4 @@ for letter in text:
         if letter == vowel:
             vowels_found.append(letter) #ha magánhangzót talál, kigyűjti.
 
-print(f'{"Your sentence was:"} {text.capitalize()} {"\n The vowels in your sentence are:"} {(", ".join(vowels_found))} {"\n This is"} {len(vowels_found)} {"vowels."}')
+print(f"Your sentence was: {text.capitalize()} \n The vowels in your sentence are: {(", ".join(vowels_found))} \n This is {len(vowels_found)} vowels.")
